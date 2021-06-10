@@ -1,0 +1,18 @@
+# Use § for colors.
+
+# If enabled every new player that joins will be sent the claim form.
+newPlayer: true
+
+# Settings for the Claim Form
+title: "Invite Manager"
+content: "Check to see if the person who invited you is online and if not manually type up the invitee's username."
+switchLabel: "Enable if you are using the manual entry option."
+inviteSelector: "Inviter (if online)"
+inviteInput: "Inviter (if offline)"
+
+# Use {money} to display the money the player will be awarded.
+# Note that if that the inviter is offline the money added message won't be sent.
+inviterRewardMessage: "You have been rewarded ${money} for inviting a player!"
+invitedRewardMessage: "You have been rewarded ${money} for being invited and claiming the award."
+invitedReward: 1000
+inviterReward: 10000

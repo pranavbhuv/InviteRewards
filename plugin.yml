@@ -1,0 +1,14 @@
+---
+name: InviteRewards
+version: 0.0.1
+main: twiqk\InviteRewards\Main
+api: 3.20.0
+author: twiqk
+depend:
+  - EconomyAPI
+
+commands:
+  claim:
+    description: "Claim your reward for referring a player"
+
+...
