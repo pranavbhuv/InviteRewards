@@ -1,4 +1,8 @@
-# InviteRewards
+# InviteRewards 
+
+[![](https://poggit.pmmp.io/shield.api/InviteRewards)](https://poggit.pmmp.io/p/InviteRewards)
+<a href="https://poggit.pmmp.io/p/InviteRewards"><img src="https://poggit.pmmp.io/shield.api/InviteRewards"></a>
+
 Attract new players by rewarding current players for inviting new players. Players are happy and server owners are happy.
   - Highly configurable.
   - Abuse proof.
