@@ -29,7 +29,6 @@ class Main extends PluginBase implements Listener {
         $this->saveResource("settings.yml");
         $this->saveResource("data.yml");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->notice("has been enabled.");
     }
 
     public function onJoin(PlayerJoinEvent $event){
@@ -101,6 +100,6 @@ class Main extends PluginBase implements Listener {
     }
 
     public function onDisable(){
-        $this->getLogger()->notice("has been disabled.");
+        $this->saveResource("data.yml");
     }
 }
